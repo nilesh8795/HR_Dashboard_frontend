@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an axios instance with a base URL
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:5000/api",  // Replace with your API base URL
+  baseURL: "https://hr-dashboard-backend-m1dl.onrender.com/api",  // Replace with your API base URL
 });
 
 // Adding the token to the Authorization header automatically for every request
